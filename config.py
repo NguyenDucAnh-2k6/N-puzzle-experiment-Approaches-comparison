@@ -23,7 +23,7 @@ class PuzzleConfig(BaseModel):
 # Create the instance
 # Users can edit values right here
 config = PuzzleConfig(
-    time_limit=1000, # User changed this
+    time_limit=1050, # User changed this
     beam_width=100,
     simulated_annealing=SimulatedAnnealingConfig(
         target_iterations=500000 # User increased this
