@@ -1,0 +1,12 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# Virtual Environment (if you use one)
+venv/
+env/
+.env
